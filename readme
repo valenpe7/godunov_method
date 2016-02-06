@@ -1,0 +1,12 @@
+godunov method
+
+author: Petr Valenta
+date: 28/01/2016
+
+required version of GNU gcc compiler: 4.8.2
+
+dirs:
+./bin ... compiled binary
+./doc ... project documentation
+./out ... output data
+./src ... source code

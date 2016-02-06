@@ -1,0 +1,9 @@
+#!/bin/bash
+gcc --version
+echo "minimum required version of GNU gcc: 4.8.2"
+cd ./src
+echo -e "godunov_method: compilation started"
+make all
+echo -e "godunov_method: complitaion completed"
+make clean
+mv godunov_method ../godunov_method
